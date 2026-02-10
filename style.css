@@ -1,0 +1,20 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{min-height:100vh;background:radial-gradient(circle at top,#0f2027,#000);display:flex;align-items:center;justify-content:center;color:#fff}
+.card{width:320px;padding:25px;text-align:center;border-radius:20px;background:rgba(255,255,255,.1);backdrop-filter:blur(15px);box-shadow:0 0 40px rgba(0,255,255,.3)}
+.profile{width:110px;height:110px;border-radius:50%;border:3px solid cyan;margin-bottom:15px}
+h3{color:cyan;font-weight:400}
+.buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0}
+.buttons a{text-decoration:none;color:#fff;padding:8px;border-radius:10px;background:rgba(0,255,255,.15);display:flex;align-items:center;justify-content:center;gap:5px;transition:0.3s}
+.buttons a i{color:cyan; transition:0.3s}
+.buttons a:hover i{color:#ff0}
+.buttons a:hover{background:cyan;color:#000}
+#qrcode{ display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:20px auto;
+  padding:10px;
+  border-radius:16px;
+  border:2px solid cyan;
+  box-shadow:0 0 15px rgba(10, 10, 10, 0.7);
+  background:rgba(255,255,255,0.9);
+width:160px;height:160px} 
